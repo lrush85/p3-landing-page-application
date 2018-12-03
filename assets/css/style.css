@@ -106,7 +106,7 @@ button.btn.btn-outline-secondary:focus {
 /* Coffee Image Section */
 
 #coffee-image {
-    background-image: url('/assets/images/coffeeshop.png');
+    background-image: url('../images/coffeeshop.png');
     background-size: cover;
     background-position: center;
     padding-top: 127px;
