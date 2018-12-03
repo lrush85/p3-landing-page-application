@@ -286,6 +286,11 @@ div#brews-news button.btn.btn-danger {
     font-family: 'Poppins', sans-serif;
 }
 
+p.card-text.blog-date {
+    font-size: 14px;
+    font-weight: 600;
+}
+
 /* Newsletter Sign Up Section */
 
 #newsletter-signup {
@@ -299,4 +304,128 @@ div#brews-news button.btn.btn-danger {
 
 #newsletter-signup h4{
     font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+form#newsletter-form {
+    margin-top: -38px;
+    background-color: #2e2e2e;
+}
+
+div#newsletter-input {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding-left: 360px;
+}
+
+#newsletter-input input{
+    font-size: 14px;
+    font-family: 'Vollkorn', sans-serif;
+    font-style: italic;
+    border-radius: 20px;
+    background-color: #fff;
+    height: 40px;
+    margin-top: 20px;
+    top: 10px;
+}
+
+div#newsletter-input button.btn.btn-danger {
+    border-radius: 20px;
+    padding: 10px 80px;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 3px 2px rgba(204,204,204,0.6);
+    background-color: #c83116;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+/* Footer Area */
+
+img#quest-coffee-img {
+    width: 100px;
+    height: auto;
+    padding-top: 78px;
+}
+
+#quest-coffee-footer {
+    padding: 15px 40px 20px 118px;
+    background-color: #fbf7ec;
+    margin-bottom: 0;
+}
+
+.quest-coffee-border {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-right: 1px solid #989896;
+
+}
+
+#quest-coffee-address {
+    color: #c83116;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-top: 25px;
+}
+
+.quest-coffee-hours {
+    font-family: 'Poppins', sans-serif;
+}
+#quest-coffee-help {
+    padding-top: 25px;
+    padding-left: 70px;
+}
+
+p.quest-coffee-contact {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.quest-coffee-contact a {
+    text-decoration: none;
+    color: #c83116;
+    font-weight: 400;
+}
+
+.quest-coffee-number {
+    color: #c83116;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.quest-coffee-connect {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-left: 70px;
+}
+
+i.quest-coffee-icons {
+    background-color: #c83116;
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 14px;
+}
+
+i#facebook-icon.fa.fa-facebook.quest-coffee-icons {
+    margin-left: 0px !important;
+}
+
+/* Copyright Area */
+div.quest-coffee-copyright {
+    background-color: #13301e;
+    color: #e2e6e3;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 0;
+    padding: 20px 0;
+    padding-left: 565px;
+    font-style: italic;
 }

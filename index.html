@@ -144,7 +144,9 @@
                     <div class="col-lg-9 col-md-9 form-inline">
                         <h2 class="form-group">RECENT BREWS &amp; NEWS</h2>
                     </div>
-                    <div class="col-lg-2 col-md-3 form-inline"><button class="btn btn-danger">SEE ALL</button></div>
+                    <div class="col-lg-2 col-md-3 form-inline">
+                        <button class="btn btn-danger">SEE ALL</button>
+                    </div>
                 </div>
             
                 <div id="brews-news-cards" class="row">
@@ -153,6 +155,7 @@
                             <img src="./assets/images/coffeemug.png" alt="Coffee Mug" class="card-img-top">
                             <div class="card-body card-block">
                                 <h5 class="card-title">New merch in the works!</h5>
+                                <p class="card-text blog-date">November 9, 2018</p>
                                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, unde? Vitae officiis, assumenda eius ad laudantium, ipsam soluta at porro hic earum aspernatur commodi recusandae beatae eaque. Quae, dolore aperiam.</p>
                                 <p class="card-text text-center"><a href="#" class="anchor-link">KEEP READING <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
                             </div>
@@ -163,6 +166,7 @@
                             <img src="./assets/images/lattepour.png" alt="Latte being poured" class="card-img-top">
                             <div class="card-body card-block">
                                 <h5 class="card-title">Our barista Kacie has some tips on getting the perfect pour</h5>
+                                <p class="card-text blog-date">November 9, 2018</p>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi laudantium nostrum neque molestiae sapiente maiores error aut. Necessitatibus, vel id, nihil dicta cumque aspernatur facilis!</p>
                                 <p class="card-text text-center"><a href="#" class="anchor-link">KEEP READING <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
                             </div>
@@ -173,6 +177,7 @@
                             <img src="./assets/images/coffeebeansbag.png" alt="Open bag of coffee beans" class="card-img-top">
                             <div class="card-body card-block">
                                 <h5 class="card-title">Coffee for Social Good</h5>
+                                <p class="card-text blog-date">November 9, 2018</p>
                                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, accusantium ullam id sunt neque voluptatem perferendis deserunt, repellendus, aut consequatur explicabo doloremque exercitationem fuga delectus quod!</p>
                                 <p class="card-text text-center"><a class="anchor-link" href="#">KEEP READING <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
                             </div>
@@ -191,17 +196,61 @@
                         <h4 class="text-center">SIGN UP TO GET SPECIAL OFFERS, UPDATES, AND THE LATEST NEWS SENT TO YOUR INBOX.</h4>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-
+                <form id="newsletter-form" class="form-inline mx-auto">
+                    <div id="newsletter-input" class="row">
+                        <div class="input-group ml-4">
+                            <input type="text" class="form-control" placeholder="your email" aria-label="search" aria-describedby="search-input">
+                        </div>
                     </div>
-                </div>
+                    <button class="btn btn-danger ml-4">SIGN ME UP</button>
+                </form>
             </section>
 
             <!-- ./Sign Up Newsletter Section -->
 
+            <!-- Footer Area -->
+            <footer id="quest-coffee-footer">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img id="quest-coffee-img" src="./assets/images/questcoffeeintials.png" alt="">
+                            </div>
+                            <div class="col-lg-7 quest-coffee-border">
+                                <p id="quest-coffee-address">813 Lakeway Dr. <br> Bellingham, WA 98229</p>
+                                <p class="quest-coffee-hours">MONDAY-SUNDAY <br> 5:30 AM-8 PM</p>
+                                <p class="quest-coffee-hours">SUNDAY <br> 6 AM-8 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="quest-coffee-help" class="col-lg-4 quest-coffee-border">
+                        <p class="quest-coffee-contact">NEED HELP?</p>
+                        <p class="quest-coffee-contact"><a href="#">info@woodscoffee.com</a></p>
+                        <p class="quest-coffee-contact"><a href="#">donations@woodscoffee.com</a></p>
+                        <p class="quest-coffee-number">(360) 933-1855</p>
+                    </div>
+                    <div class="col-lg-4 quest-coffee-connect">
+                        <p>STAY CONNECTED</p>
+                        <i id="facebook-icon" class="fa fa-facebook quest-coffee-icons" aria-hidden="true"></i>
+                        <i class="fa fa-instagram quest-coffee-icons" aria-hidden="true"></i>
+                        <i class="fa fa-yelp quest-coffee-icons" aria-hidden="true"></i>
 
 
+                    </div>
+                </div>
+            </footer>
+
+            <!-- ./Footer Area -->
+
+            <!-- Copyright Area -->
+            <nav class="navbar bottom quest-coffee-copyright">
+                <div class="row">
+                    <div class="quest-coffee-copyright">
+                        <p>&copy; Woods Coffee All rights reserved</p>
+                    </div>
+                </div>
+            </nav>
+            <!-- ./Copyright Area -->
 
 
 
