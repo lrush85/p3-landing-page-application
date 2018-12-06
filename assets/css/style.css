@@ -233,7 +233,7 @@ h2#quest-header {
   font-family: "Poppins", sans-serif;
   background-color: #13301e;
   border-radius: 20px;
-  width: 45%;
+  width: 175px;
   padding: 10px 10px;
   letter-spacing: 2px;
   box-shadow: 1px 1px 3px 2px rgba(204, 204, 204, 0.6);
@@ -285,6 +285,7 @@ h2#roastery-header {
   padding: 10px 65px;
   letter-spacing: 2px;
   box-shadow: 1px 1px 3px 2px rgba(204, 204, 204, 0.6);
+  width: 175px;
 }
 
 /* Recent Brews & News Section */
@@ -432,6 +433,8 @@ img#quest-coffee-qc-logo {
 
 footer.qc-footer {
     background-color: #fbf7ec;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer.qc-footer > div.row {
@@ -465,6 +468,10 @@ i.fa-facebook {
     text-align: center;
 }
 
+.bold-text {
+  font-weight: 500;
+}
+
 
 /* Copyright Area */
 div.quest-coffee-copyright {
@@ -477,12 +484,13 @@ div.quest-coffee-copyright {
   margin-top: 0;
   padding: 20px 0;
   font-style: italic;
+  width: 100%;
 }
 
 
 /* Media Queries */
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 425px) {
   /* Top Navbar */
   a#yelp-link {
     border: none;
@@ -492,6 +500,10 @@ div.quest-coffee-copyright {
   /* Second Navbar */
   img#quest-coffee-icon {
     width: 170px;
+  }
+
+  ul.second-nav-ul.navbar-nav.form-inline {
+    flex-flow: column;
   }
 
   /* Picture Cover Section */
@@ -517,6 +529,10 @@ div.quest-coffee-copyright {
     height: 40px;
   }
 
+  div#roastery-story button.btn.btn-secondary {
+    width: 166.5px;
+  }
+
   div#newsletter-input {
     margin-top: 12px;
     margin-bottom: 40px;
@@ -527,6 +543,10 @@ div.quest-coffee-copyright {
 
   img#quest-coffee-qc-logo {
     display: none;
+    }
+
+  div.qc-help, div.qc-address {
+      border: none !important;
     }
 }
 
@@ -577,11 +597,13 @@ div.quest-coffee-copyright {
     padding-top: 0;
     font-size: 10px;
     height: 82%;
+    text-align: right;
   }
 
   #roastery-story button.btn.btn-secondary {
     margin-top: 10px;
-    padding: 10px 30px;
+    padding: 10px 20px;
+    width: 148.05px;
   }
 
   h2#roastery-header {
@@ -633,22 +655,7 @@ div.qc-help {
     padding: 10px;
     border-bottom: 1px solid #8f9c94;
 }
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 1024px) {
@@ -723,5 +730,9 @@ div.qc-help {
 }
 
   /* Footer Area */
+
+  .text-size {
+    font-size: .9em;
+  }
 
 }
